@@ -13,6 +13,9 @@
 		03A0173221C0EAFD003B74B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A0173121C0EAFD003B74B9 /* Assets.xcassets */; };
 		03A0173521C0EAFD003B74B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A0173321C0EAFD003B74B9 /* LaunchScreen.storyboard */; };
 		03A0173821C0EAFD003B74B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A0173721C0EAFD003B74B9 /* main.m */; };
+		03A0174021C0ED33003B74B9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A0173F21C0ED33003B74B9 /* ExternalAccessory.framework */; };
+		03A0175521C0ED96003B74B9 /* libBixolonUPOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A0175321C0ED96003B74B9 /* libBixolonUPOS.a */; };
+		03A0175821C0EDD0003B74B9 /* SWBixolonPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A0175721C0EDD0003B74B9 /* SWBixolonPrinter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,24 @@
 		03A0173421C0EAFD003B74B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A0173621C0EAFD003B74B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A0173721C0EAFD003B74B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A0173F21C0ED33003B74B9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		03A0174521C0ED96003B74B9 /* UPOSDefinesPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesPrinter.h; sourceTree = "<group>"; };
+		03A0174621C0ED96003B74B9 /* UPOSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefines.h; sourceTree = "<group>"; };
+		03A0174721C0ED96003B74B9 /* UPOSDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDevices.h; sourceTree = "<group>"; };
+		03A0174821C0ED96003B74B9 /* BixolonUPOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BixolonUPOS.h; sourceTree = "<group>"; };
+		03A0174921C0ED96003B74B9 /* UPOSDeviceControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDeviceControlDelegate.h; sourceTree = "<group>"; };
+		03A0174A21C0ED96003B74B9 /* UPOSPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSPrinterController.h; sourceTree = "<group>"; };
+		03A0174B21C0ED96003B74B9 /* UPOSDefinesScr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesScr.h; sourceTree = "<group>"; };
+		03A0174C21C0ED96003B74B9 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		03A0174D21C0ED96003B74B9 /* UPOSDefinesCashDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesCashDrawer.h; sourceTree = "<group>"; };
+		03A0174E21C0ED96003B74B9 /* UPOSDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDeviceController.h; sourceTree = "<group>"; };
+		03A0174F21C0ED96003B74B9 /* UPOSSCRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSSCRController.h; sourceTree = "<group>"; };
+		03A0175021C0ED96003B74B9 /* UPOSCDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSCDController.h; sourceTree = "<group>"; };
+		03A0175121C0ED96003B74B9 /* ezConnLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ezConnLib.h; sourceTree = "<group>"; };
+		03A0175221C0ED96003B74B9 /* UPOSMSRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSMSRController.h; sourceTree = "<group>"; };
+		03A0175321C0ED96003B74B9 /* libBixolonUPOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBixolonUPOS.a; sourceTree = "<group>"; };
+		03A0175621C0EDD0003B74B9 /* SWBixolonPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWBixolonPrinter.h; sourceTree = "<group>"; };
+		03A0175721C0EDD0003B74B9 /* SWBixolonPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWBixolonPrinter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A0174021C0ED33003B74B9 /* ExternalAccessory.framework in Frameworks */,
+				03A0175521C0ED96003B74B9 /* libBixolonUPOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,7 @@
 			children = (
 				03A0172721C0EAFB003B74B9 /* BixolonExample */,
 				03A0172621C0EAFB003B74B9 /* Products */,
+				03A0173E21C0ED33003B74B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +86,54 @@
 				03A0172921C0EAFB003B74B9 /* AppDelegate.m */,
 				03A0172B21C0EAFB003B74B9 /* ViewController.h */,
 				03A0172C21C0EAFB003B74B9 /* ViewController.m */,
+				03A0175621C0EDD0003B74B9 /* SWBixolonPrinter.h */,
+				03A0175721C0EDD0003B74B9 /* SWBixolonPrinter.m */,
 				03A0172E21C0EAFB003B74B9 /* Main.storyboard */,
 				03A0173121C0EAFD003B74B9 /* Assets.xcassets */,
 				03A0173321C0EAFD003B74B9 /* LaunchScreen.storyboard */,
 				03A0173621C0EAFD003B74B9 /* Info.plist */,
 				03A0173721C0EAFD003B74B9 /* main.m */,
+				03A0174121C0ED96003B74B9 /* BixolonSDK */,
 			);
 			path = BixolonExample;
+			sourceTree = "<group>";
+		};
+		03A0173E21C0ED33003B74B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A0173F21C0ED33003B74B9 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03A0174121C0ED96003B74B9 /* BixolonSDK */ = {
+			isa = PBXGroup;
+			children = (
+				03A0174421C0ED96003B74B9 /* libBixolonUPOS */,
+				03A0175321C0ED96003B74B9 /* libBixolonUPOS.a */,
+			);
+			path = BixolonSDK;
+			sourceTree = "<group>";
+		};
+		03A0174421C0ED96003B74B9 /* libBixolonUPOS */ = {
+			isa = PBXGroup;
+			children = (
+				03A0174521C0ED96003B74B9 /* UPOSDefinesPrinter.h */,
+				03A0174621C0ED96003B74B9 /* UPOSDefines.h */,
+				03A0174721C0ED96003B74B9 /* UPOSDevices.h */,
+				03A0174821C0ED96003B74B9 /* BixolonUPOS.h */,
+				03A0174921C0ED96003B74B9 /* UPOSDeviceControlDelegate.h */,
+				03A0174A21C0ED96003B74B9 /* UPOSPrinterController.h */,
+				03A0174B21C0ED96003B74B9 /* UPOSDefinesScr.h */,
+				03A0174C21C0ED96003B74B9 /* GCDAsyncUdpSocket.h */,
+				03A0174D21C0ED96003B74B9 /* UPOSDefinesCashDrawer.h */,
+				03A0174E21C0ED96003B74B9 /* UPOSDeviceController.h */,
+				03A0174F21C0ED96003B74B9 /* UPOSSCRController.h */,
+				03A0175021C0ED96003B74B9 /* UPOSCDController.h */,
+				03A0175121C0ED96003B74B9 /* ezConnLib.h */,
+				03A0175221C0ED96003B74B9 /* UPOSMSRController.h */,
+			);
+			path = libBixolonUPOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +208,7 @@
 			files = (
 				03A0172D21C0EAFB003B74B9 /* ViewController.m in Sources */,
 				03A0173821C0EAFD003B74B9 /* main.m in Sources */,
+				03A0175821C0EDD0003B74B9 /* SWBixolonPrinter.m in Sources */,
 				03A0172A21C0EAFB003B74B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +358,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BixolonExample/BixolonSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swing.BixolonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,6 +378,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BixolonExample/BixolonSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swing.BixolonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
